@@ -1,4 +1,4 @@
 baseURL = 'http://hugo.room.xyz/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Rumblings with Hugo Static Site Generator'
 theme = "ananke"
