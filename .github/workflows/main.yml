@@ -27,7 +27,8 @@ jobs:
       - name: install hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.88.1'
+          extended: true
 
       - name: clean up
         run: |
@@ -51,6 +52,6 @@ jobs:
           then
             git add --all
             git commit -am "deployed: ${{ steps.vars.outputs.commit_msg }}"
-          fi     
+          fi
       - name: deploy
         run: git push --all
