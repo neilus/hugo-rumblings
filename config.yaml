@@ -1,0 +1,29 @@
+baseURL: 'http://hugo.room.xyz/'
+languageCode: 'en-us'
+title: 'Rumblings with Hugo Static Site Generator'
+theme: "ananke"
+languages:
+  en:
+    languageName: English
+    weight: 10
+  fr:
+    languageName: Français
+    weight: 20
+    title: "Rumblings avec le générateur de site statique Hugo"
+  de:
+    languageName: Deutsch
+    weight: 20
+    title: "Rumpeln mit Hugo Static Site Generator"
+  hu:
+    languageName: "Magyar"
+    weight: 20
+    title: "Próbálkozások a Hugo statikus site generátorral"
+  hi:
+    languageName: "नाम"
+    weight: 20
+    title: "ह्यूगो स्टेटिक साइट जेनरेटर के साथ रूंबिंग"
+  ar:
+    languageName:
+    weight: 20
+    languagedirection: rtl
+    title: "التذمر مع Hugo Static Site Generator"

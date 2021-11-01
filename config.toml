@@ -1,4 +1,0 @@
-baseURL = 'http://hugo.room.xyz/'
-languageCode = 'en-us'
-title = 'Rumblings with Hugo Static Site Generator'
-theme = "ananke"
